@@ -27,7 +27,7 @@
 
 ## 📌 Featured Projects
 
-### 🌡️ [Thermal Accuracy Analysis Pipeline](https://github.com/Rbocan/thermal-analysis-pipeline)
+### 🌡️ [Analysis Pipeline for Semiconductors](https://github.com/Rbocan/thermal-analysis-pipeline)
 Production-inspired multi-product data pipeline for semiconductor thermal characterization. Ingests large-scale test datasets, runs statistical processing (Cp/Cpk, sigma levels, capability analysis), and serves an interactive Streamlit dashboard for trend monitoring and reporting.
 `Python` `SQL` `Streamlit` `Statistical Analysis`
 
