@@ -1,55 +1,114 @@
-# Hi, I'm Rob 👋
+<div align="center">
 
-**Product Development Engineer @ Intel** — I work at the intersection of semiconductor hardware and data engineering, specializing in thermal characterization, silicon validation, and building tools that make engineering teams faster.
+<h1>Rob Bocan</h1>
+
+<h3>Product Development Engineer @ Intel &nbsp;·&nbsp; Data & ML Systems Engineer &nbsp;·&nbsp; Open Source Builder</h3>
+
+<p>
+  <a href="mailto:rbocan94@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/rabocans"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <img src="https://img.shields.io/badge/📍_Costa_Rica-005BBB?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/Open_to_Work-Senior_Data_%7C_ML_%7C_Systems_Roles-2ea44f?style=for-the-badge" />
+</p>
+
+<p><em>Building production-grade data systems at the intersection of <strong>silicon hardware</strong> and <strong>modern software engineering</strong></em></p>
+
+</div>
 
 ---
 
-## 🔧 What I Do
+## 🧑‍💻 About Me
 
-- **Silicon Validation** — Pre/post-silicon execution, yield analysis, and product qualification across HVM-scale semiconductor products at Intel
-- **Data Engineering** — Production-grade Python pipelines for thermal accuracy analysis, statistical processing (Cp/Cpk, DOE), and Streamlit dashboards used by cross-site engineering teams
-- **Statistical Analysis** — Design of experiments (DOE), PVT analysis, capability analysis, and data-driven decision making in high-stakes manufacturing environments
+I'm a Product Development Engineer at **Intel** working across semiconductor validation and data engineering — shipping tools that run at HVM scale across global manufacturing. My edge is bridging low-level hardware characterization with high-throughput software systems that real engineering teams rely on daily.
+
+- 🔬 **Silicon Validation** — Pre/post-silicon execution, yield analysis, and product qualification at HVM scale
+- 📊 **Data Engineering** — Production Python pipelines for thermal accuracy analysis with Cp/Cpk, DOE, and statistical capability metrics
+- 🤖 **ML Engineering** — Failure prediction, drift detection (KS-test), and yield forecasting for semiconductor manufacturing
+- 🌐 **Full-Stack Systems** — End-to-end from async FastAPI backends to React 19 dashboards with real-time analytics
+
+---
+
+## 🔥 Currently Building
+
+### 🧪 [SoC Manufacturing Data Analysis Pipeline](https://github.com/Rbocan/SoC-analysis-pipeline)
+
+> *A production-ready, open-source SoC validation platform inspired by real Intel-scale data engineering patterns*
+
+A full-stack system built to bring industrial-grade semiconductor data analysis to the open-source world.
+
+```
+React 19 + Next.js 15 (TypeScript)
+         ↕  REST API
+FastAPI + Python (async SQLAlchemy)
+         ↕
+Polars + DuckDB + PostgreSQL + Redis
+```
+
+**What makes it production-grade:**
+
+| Feature | Detail |
+|---|---|
+| ⚡ **Performance** | Query 1M rows in < 1s · Dashboard loads in < 2s · Pivot 10M rows in < 5s |
+| 🤖 **ML Layer** | Failure prediction · KS-test drift detection · Yield forecasting |
+| 🔧 **Config-Driven** | YAML-defined SoC products — add new chips with zero code changes |
+| 📋 **Auto-Reporting** | HTML/PDF reports via Jinja2 + WeasyPrint, scheduled via APScheduler |
+| 🔐 **Security** | JWT auth · Bcrypt · Audit middleware · Global exception handling |
+| 🐳 **Containerized** | Full Docker Compose stack · 100k synthetic measurements/product |
+
+**Roadmap:** `Phase 1 MVP` ✅ → `Phase 2 Core` ✅ → `Phase 3: OAuth2 RBAC + Virtual Scrolling` → `Phase 4: Kubernetes + Prometheus + ELK + CI/CD`
 
 ---
 
 ## 🛠️ Tech Stack
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+**Languages**
 
-**Also working with:** JMP · Tableau · Statistical process control · ATE environments
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+
+**Data Engineering & ML**
+
+![Polars](https://img.shields.io/badge/Polars-CD792C?style=flat-square&logo=polars&logoColor=white)
+![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+
+**Backend & Infrastructure**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+**Frontend**
+
+![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![TanStack](https://img.shields.io/badge/TanStack_Table-FF4154?style=flat-square&logo=react-query&logoColor=white)
+
+**Semiconductor Domain**
+
+`Cp/Cpk Analysis` · `Design of Experiments (DOE)` · `PVT Characterization` · `Statistical Process Control` · `ATE Environments` · `JMP` · `Tableau`
 
 ---
 
-## 📌 Featured Projects
+## 📌 Projects
 
-### 🌡️ [Analysis Pipeline for Semiconductors](https://github.com/Rbocan/thermal-analysis-pipeline)
-Production-inspired multi-product data pipeline for semiconductor thermal characterization. Ingests large-scale test datasets, runs statistical processing (Cp/Cpk, sigma levels, capability analysis), and serves an interactive Streamlit dashboard for trend monitoring and reporting.
-`Python` `SQL` `Streamlit` `Statistical Analysis`
-
-### 📊 [Data Science Portfolio](https://github.com/Rbocan/Data_Science)
-Projects and notebooks from my Data Science certification at Instituto Tecnológico de Costa Rica — covering statistical modeling, data analysis, and visualization.
-`Python` `Jupyter` `Pandas` `Statistics`
+| Project | Description | Stack |
+|---|---|---|
+| [🧪 SoC Analysis Pipeline](https://github.com/Rbocan/SoC-analysis-pipeline) | Production SoC validation dashboard with ML failure prediction, drift detection, yield forecasting, and automated PDF reporting | FastAPI · Polars · DuckDB · Next.js 15 · React 19 · Redis |
+| [📊 Data Science Portfolio](https://github.com/Rbocan/Data-Science-Portfolio) | Statistical modeling, data analysis, and visualization — Instituto Tecnológico de Costa Rica | Python · Pandas · Jupyter · Statistics |
 
 ---
 
-## 🎯 Currently Working On
+## 🌱 Beyond the Code
 
-- 🌡️ Open-sourcing a public version of my thermal analysis pipeline with synthetic semiconductor data
-- 🇫🇷 Learning French (A2 → B1) and 🇩🇪 German (A1)
+- 🇫🇷 Learning French (A2 → B1) &nbsp;·&nbsp; 🇩🇪 German (A1)
 - 📚 Deepening ML and cloud engineering skills
+- 🤝 Open to collaborating on data-heavy open-source projects
 
 ---
-
-## 📫 Let's Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rabocans)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:rbocan94@gmail.com)
-
----
-
-*Based in Costa Rica 🇨🇷 · Open to senior engineering and data roles*
