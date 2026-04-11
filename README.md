@@ -2,13 +2,12 @@
 
 <h1>Rob Bocan</h1>
 
-<h3>Product Development Engineer @ Intel &nbsp;·&nbsp; Data & ML Systems Engineer &nbsp;·&nbsp; Open Source Builder</h3>
+<h3>Product Development Engineer @ Intel &nbsp;·&nbsp; Data Systems · Open Source</h3>
 
 <p>
   <a href="mailto:rbocan94@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://linkedin.com/in/rabocans"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <img src="https://img.shields.io/badge/📍_Costa_Rica-005BBB?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/Open_to_Work-Senior_Data_%7C_ML_%7C_Systems_Roles-2ea44f?style=for-the-badge" />
 </p>
 
 <p><em>Building production-grade data systems at the intersection of <strong>silicon hardware</strong> and <strong>modern software engineering</strong></em></p>
